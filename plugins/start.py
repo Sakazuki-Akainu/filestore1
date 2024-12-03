@@ -177,10 +177,16 @@ async def not_joined(client: Client, message: Message):
         [
             InlineKeyboardButton(
                 "Join Channel",
-                url = ButtonUrl)
+                url=ButtonUrl
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                "Start This Bot",
+                url="https://t.me/PAWSOG_bot/PAWS?startapp=otEGB4k7"
+            )
         ]
     ]
-
     try:
         buttons.append(
             [
